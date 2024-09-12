@@ -1,35 +1,37 @@
 /* Estilos para la cabecera y la navegación */
-.app-header {
-    background-color: #007bff;
+header {
     color: #fff;
-    padding: 10px;
     text-align: center;
-    border-bottom: 2px solid #0056b3;
+    margin-top: -30px;
 }
 
+.navbar{
+    background-color: rgba(0, 189, 189, 0.089);
+}
 
-nav ul {
+ ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
+    margin-top: 60px;
+    margin-left: -39%;
 }
 
-
-nav ul li {
-    display: inline;
-    margin: 0 15px;
+ul li{
+    padding-right: 20px;
+    
 }
 
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 18px;
+.text{
+    background: transparent;
 }
 
+.titulo{
+    margin-left: 25%;
+}
 
-nav ul li a:hover {
-    text-decoration: underline;
+ ul li a {
+    color:#fff;
 }
 
 
@@ -47,6 +49,24 @@ h2 {
 }
 
 
+img{
+    width: 80px;
+}
+
+.img img{
+    margin-top: 20px;
+    margin-left: 400%;
+}
 
 
- 
+
+.container{
+    padding: 40px;
+}
+.container2{
+    padding-bottom: 150px;
+}
+
+.sp1{
+    color: black;
+}

@@ -1,7 +1,10 @@
-
-
-<header class="navbar navbar-expand-lg navbar-dark bg-primary">
-  <a class="navbar-brand" href="#">Mi Aplicación de Productos</a>
+<link rel="stylesheet" href="app.component.css">
+<header class="navbar navbar-expand-lg navbar-dark">
+  <div class="img">
+    <img src="./assets/logo.png">
+  </div>
+ 
+  <a class="navbar-brand titulo" href="#"><span class="sp1">Mi Aplicación </span><span class="sp2">de Productos</span></a>
   <div class="collapse navbar-collapse">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item">
@@ -13,6 +16,9 @@
       <li class="nav-item">
         <a class="nav-link" routerLink="/Usuarios">Usuarios</a>
       </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/Contacto">Contacto</a>
+      </li>
     </ul>
   </div>
 
@@ -21,30 +27,25 @@
 
 <main class="container mt-4">
   <h2>INICIO</h2>
-  <section class="jumbotron text-center bg-light p-4">
+  <section class=" text-center">
     <div class="container">
-      <h1 class="display-4">Bienvenido a Mi Aplicación de Productos</h1>
-      <p class="lead">Esta aplicación te permite gestionar y visualizar productos de manera sencilla y eficiente. Explora nuestras funcionalidades y descubre cómo podemos ayudarte a optimizar tu gestión de productos.</p>
+      <h1 class="d3isplay-4 text">Bienvenido a Mi Aplicación de Productos</h1>
+      <p class="lead text">Esta aplicación te permite gestionar y visualizar productos de manera sencilla y eficiente. Explora nuestras funcionalidades y descubre cómo podemos ayudarte a optimizar tu gestión de productos.</p>
 
-
-   
- 
     </div>
   </section>
 
 
   <router-outlet></router-outlet>
   <!-- Sección Informativa -->
-  <section class="jumbotron text-center bg-light p-4">
-    <div class="container">
+  <section class=" text-center ">
+    <div class="container2">
      
       <p>Puedes comenzar navegando por las secciones de productos y usuarios usando el menú superior.</p>
       
     </div>
   </section>
 
-
- 
 </main>
 
 

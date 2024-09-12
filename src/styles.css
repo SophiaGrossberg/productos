@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    font-family: "Work Sans", sans-serif;
+    
+    background-image: linear-gradient(
+        to bottom right,
+        #9664bb 0%,
+        #6f37a4 20%,
+        #95289b 40%,
+        #fe7098 60%,
+        #f973d2 80%
+    );
+
+    background-size: 200% 200%;
+    animation: movimiento 5s linear infinite alternate;
+}
+
+@keyframes movimiento{
+    from{
+        background-position: 0 0;
+    }
+    to{
+        background-position: 100% 100%;
+    }
+}

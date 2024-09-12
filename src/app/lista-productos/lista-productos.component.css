@@ -2,13 +2,18 @@
     display: block;
     padding: 20px;
   }
+
+  body{
+    font-family: "Work Sans", sans-serif;
+  }
  
   .card {
     border-radius: 10px;
   }
  
   .card-header {
-    border-bottom: 1px solid #dee2e6;
+    border-bottom: none;
+   
   }
  
   .card-body {
@@ -16,15 +21,42 @@
   }
  
   .btn-primary {
-    background-color: #007bff;
+    background-color: #580058;
     border: none;
     padding: 10px 20px;
   }
  
   .btn-primary:hover {
-    background-color: #0056b3;
-    border-color: #004080;
+    background-color:  #800080;
+    
   }
 
-
+.back{
+  background-color:  #1b1b1b;
  
+}
+ 
+h3 ,label{
+  color:#fff;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="password"],
+.form-group input[type="number"]{
+  background-color: #303030;
+  border:none ;
+}
+
+#descripcion, #precio, #categoria{
+  background-color: #303030;
+}
+
+.form-control{
+  color:white;
+  border: none;
+}
+
+#imagen{
+  color: #fff;
+}
